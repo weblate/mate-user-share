@@ -1,66 +1,70 @@
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# 
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
-"PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
-"Language-Team: Latvian (https://app.transifex.com/mate/teams/13566/lv/)\n"
+"PO-Revision-Date: 2026-11-19 21:20+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/help-documentation/mate-user-share-help/lv/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lv\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"Rihards Priedītis <rprieditis@gmail.com>\n"
+"\n"
 "Launchpad Contributions:\n"
 "  Kristaps https://launchpad.net/~retail"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
 msgid "Personal File Sharing Manual"
-msgstr ""
+msgstr "Personiskās failu koplietošanas rokasgrāmata"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:11
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
-msgstr ""
+msgstr "<year>2015-2020</year> <holder>MATE dokumentācijas projekts</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:15
 msgid "<year>2009</year> <holder>Red Hat, Inc.</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Red Hat, Inc.</holder>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:22
 msgid "<firstname>Matthias</firstname> <surname>Clasen</surname>"
-msgstr ""
+msgstr "<firstname>Matthias</firstname> <surname>Clasen</surname>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:35
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
-msgstr ""
+msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:31
 msgid "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
-msgstr ""
+msgstr "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:39
 msgid "This manual describes version 2.26 of mate-user-share."
-msgstr ""
+msgstr "Šajā rokasgrāmatā aprakstīta mate-user-share versija 2.26."
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:41
 msgid "Feedback"
-msgstr ""
+msgstr "Atsauksmes"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:42
@@ -70,6 +74,9 @@ msgid ""
 "url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
 "Page</ulink>."
 msgstr ""
+"Lai ziņotu par kļūdu vai ieteiktu uzlabojumu lietotnei mate-user-share vai "
+"šai rokasgrāmatai, izpildiet norādījumus <ulink url=\"help:mate-user-guide/"
+"feedback\" type=\"help\">MATE atsauksmju lapā</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:45
@@ -77,21 +84,23 @@ msgid ""
 "mate-user-share is a session service that enables easy sharing of files "
 "between several computers."
 msgstr ""
+"mate-user-share ir sesijas pakalpojums, kas ļauj ērti koplietot failus "
+"vairākos datoros."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:49
 msgid "<primary>mate-user-share</primary>"
-msgstr ""
+msgstr "<primary>mate-user-share</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:50
 msgid "<primary>file sharing</primary>"
-msgstr ""
+msgstr "<primary>failu koplietošana</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:51
 msgid "<primary>sharing</primary>"
-msgstr ""
+msgstr "<primary>koplietošana</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:54
@@ -109,6 +118,12 @@ msgid ""
 "<application>caja</application> Network window, where "
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
+"mate-user-share ir sesijas pakalpojums, kas eksportē jūsu mājas mapē esošās "
+"mapes <filename>Public</filename> saturu, lai tam varētu ērti piekļūt no "
+"citiem datoriem tajā pašā lokālajā tīklā. Citos datoros koplietotā mape būs "
+"redzama <application>caja</application> logā „Tīkls” ar nosaukumu, piemēram, "
+"„Lietotāja <replaceable>lietotājs</replaceable> koplietotie faili”, kur "
+"<replaceable>lietotājs</replaceable> vietā būs jūsu lietotājvārds."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -117,6 +132,8 @@ msgid ""
 "<filename>Public</filename> folder, and advertises the share on the local "
 "network using mDNS."
 msgstr ""
+"mate-user-share koplieto mapi <filename>Public</filename> ar WebDAV servera "
+"palīdzību un izziņo koplietojumu lokālajā tīklā, izmantojot mDNS."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:61
@@ -125,16 +142,19 @@ msgid ""
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via"
 " Bluetooth via ObexPush."
 msgstr ""
+"Turklāt mate-user-share var padarīt koplietotos failus pieejamus ar ObexFTP "
+"pa Bluetooth un saņemt failus, kas uz jūsu datoru sūtīti pa Bluetooth ar "
+"ObexPush."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:67
 msgid "Getting started"
-msgstr ""
+msgstr "Darba sākšana"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:70
 msgid "Starting mate-user-share"
-msgstr ""
+msgstr "mate-user-share palaišana"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:72
@@ -145,6 +165,11 @@ msgid ""
 "Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, "
 "and modifying the 'User Sharing' entry in the list of startup programs."
 msgstr ""
+"Pakalpojumu mate-user-share parasti palaiž <application>mate-session</"
+"application>, kad piesakāties. To var mainīt, izvēlnē <guimenu>Sistēma</"
+"guimenu> atverot <menuchoice><guimenu>Iestatījumi</guimenu><guimenu>Starta "
+"lietotnes</guimenu></menuchoice> un starta programmu sarakstā mainot "
+"ierakstu „User Sharing”."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:76
@@ -154,11 +179,15 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice>."
 msgstr ""
+"Lai iestatītu dažādus failu koplietošanas aspektus, izmantojiet failu "
+"koplietošanas iestatījumus, kurus var atvērt izvēlnē <guimenu>Sistēma</"
+"guimenu>, izvēloties <menuchoice><guimenu>Iestatījumi</guimenu><guimenu>"
+"Personiskā failu koplietošana</guimenu></menuchoice>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:81
 msgid "File Sharing Preferences"
-msgstr ""
+msgstr "Failu koplietošanas iestatījumi"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -171,11 +200,13 @@ msgid ""
 "external ref='figures/file-sharing-preferences.png' "
 "md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 msgstr ""
+"external ref='figures/file-sharing-preferences.png' "
+"md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:93
 msgid "Enabling file sharing over the network"
-msgstr ""
+msgstr "Failu koplietošanas iespējošana tīklā"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:94 C/index.docbook:138 C/index.docbook:163
@@ -184,11 +215,14 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 msgstr ""
+"Atveriet failu koplietošanas iestatījumus, izvēlnē <guimenu>Sistēma</"
+"guimenu> izvēloties <menuchoice><guimenu>Iestatījumi</guimenu><guimenu>"
+"Personiskā failu koplietošana</guimenu></menuchoice>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:99
 msgid "Share Files over the Network"
-msgstr ""
+msgstr "Failu koplietošana tīklā"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -201,6 +235,8 @@ msgid ""
 "external ref='figures/sharing-over-the-network.png' "
 "md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 msgstr ""
+"external ref='figures/sharing-over-the-network.png' "
+"md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:110
@@ -209,6 +245,9 @@ msgid ""
 "the advertisment, as well as the access to the shared files. Consult your "
 "system administrator for more details."
 msgstr ""
+"Daži lokālā datora ugunsmūra iestatījumi var traucēt koplietojuma "
+"izziņošanu, kā arī piekļuvi koplietotajiem failiem. Sīkāku informāciju "
+"jautājiet sistēmas administratoram."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:113
@@ -216,6 +255,8 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
+"Atlasiet <guilabel>Nekad</guilabel>, lai atļautu ikvienam brīvi lasīt vai "
+"rakstīt failus koplietotajā mapē."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:119
@@ -223,6 +264,8 @@ msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
+"Atlasiet <guilabel>Vienmēr</guilabel>, lai pieprasītu paroli failu lasīšanai "
+"vai rakstīšanai koplietotajā mapē."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:125
@@ -231,6 +274,8 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
+"Atlasiet <guilabel>Rakstot failus</guilabel>, lai atļautu ikvienam brīvi "
+"lasīt failus koplietotajā mapē, bet pieprasītu paroli failu rakstīšanai."
 
 #. (itstool) path: note/para
 #: C/index.docbook:132
@@ -239,6 +284,9 @@ msgid ""
 " want to have access to the shared files. Therefore, you should use a "
 "password that is different from other passwords you use."
 msgstr ""
+"Ja iestatāt paroli, tā jāpasaka visiem lietotājiem, kuriem vēlaties dot "
+"piekļuvi koplietotajiem failiem. Tāpēc izmantojiet paroli, kas atšķiras no "
+"citām jūsu parolēm."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:108
@@ -249,16 +297,21 @@ msgid ""
 "before a user on another computer is granted access to the shared files. "
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
+"Lai iespējotu failu koplietošanu ar WebDAV, izmantojiet izvēles rūtiņu "
+"<guilabel>Koplietot publiskos failus tīklā</guilabel>. Kad failu "
+"koplietošana ir iespējota, ar paroles aizsardzības vadīklām var iestatīt "
+"paroli, kas jāievada, pirms lietotājam citā datorā tiek dota piekļuve "
+"koplietotajiem failiem. <_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:137
 msgid "Enabling file sharing over Bluetooth"
-msgstr ""
+msgstr "Failu koplietošanas iespējošana pa Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:143
 msgid "Share Files over Bluetooth"
-msgstr ""
+msgstr "Failu koplietošana pa Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -271,6 +324,8 @@ msgid ""
 "external ref='figures/sharing-over-bluetooth.png' "
 "md5='0a950502b42b1e7fdb9a57d5017e919c'"
 msgstr ""
+"external ref='figures/sharing-over-bluetooth.png' "
+"md5='0a950502b42b1e7fdb9a57d5017e919c'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:156
@@ -279,6 +334,9 @@ msgid ""
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
 "access and perhaps even modify your shared files."
 msgstr ""
+"Ja atļaujat pārī nesavienotām attālinātām ierīcēm piekļūt jūsu "
+"koplietotajiem failiem, jebkurš ar Bluetooth mobilo tālruni jūsu datora "
+"tuvumā var piekļūt jūsu koplietotajiem failiem un, iespējams, pat tos mainīt."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:152
@@ -291,16 +349,24 @@ msgid ""
 "use the <guilabel>Require remote devices to pair with this "
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
+"Lai iespējotu failu koplietošanu pa Bluetooth, izmantojiet izvēles rūtiņu "
+"<guilabel>Koplietot publiskos failus, izmantojot Bluetooth</guilabel>. Lai "
+"atļautu attālinātām Bluetooth ierīcēm dzēst failus jūsu koplietotajā mapē, "
+"izmantojiet izvēles rūtiņu <guilabel>Atļaut attālinātām ierīcēm dzēst "
+"failus</guilabel>. Lai atļautu attālinātām Bluetooth ierīcēm piekļūt jūsu "
+"koplietotajiem failiem arī tad, ja tās nav savienotas pārī ar jūsu datoru, "
+"izmantojiet izvēles rūtiņu <guilabel>Pieprasīt, lai attālinātās ierīces "
+"savienojas pārī ar šo datoru</guilabel>. <_:note-1/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:162
 msgid "Receiving Files over Bluetooth"
-msgstr ""
+msgstr "Failu saņemšana pa Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:168
 msgid "Receive Files over Bluetooth"
-msgstr ""
+msgstr "Failu saņemšana pa Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -313,12 +379,16 @@ msgid ""
 "external ref='figures/receiving-over-bluetooth.png' "
 "md5='f292daef06767f39e346b222d3c448be'"
 msgstr ""
+"external ref='figures/receiving-over-bluetooth.png' "
+"md5='f292daef06767f39e346b222d3c448be'"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:181
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr ""
+"Atlasiet <guilabel>Vienmēr</guilabel>, lai atļautu jebkurai attālinātai "
+"ierīcei sūtīt failus."
 
 #. (itstool) path: note/para
 #: C/index.docbook:188
@@ -326,6 +396,8 @@ msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to"
 " enter a PIN code to connect to or from."
 msgstr ""
+"Pārī savienotās ierīces ir tās, kas ir bijušas savienotas ar jūsu datoru un "
+"kurām, lai savienotos ar datoru vai no tā, bija jāievada PIN kods."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:186
@@ -333,6 +405,8 @@ msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <_:note-1/>"
 msgstr ""
+"Atlasiet <guilabel>Tikai pārī savienotām ierīcēm</guilabel>, lai pieņemtu "
+"failus tikai no pārī savienotām ierīcēm. <_:note-1/>"
 
 #. (itstool) path: note/para
 #: C/index.docbook:195
@@ -340,6 +414,8 @@ msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-"
 "properties</application>'s <guilabel>Known devices</guilabel> section."
 msgstr ""
+"Ierīces var atzīmēt kā uzticamas lietotnes <application>bluetooth-"
+"properties</application> sadaļā <guilabel>Zināmās ierīces</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:193
@@ -347,6 +423,8 @@ msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <_:note-1/>"
 msgstr ""
+"Atlasiet <guilabel>Tikai pārī savienotām un uzticamām ierīcēm</guilabel>, "
+"lai pieņemtu failus tikai no pārī savienotām ierīcēm. <_:note-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:177
@@ -359,6 +437,12 @@ msgid ""
 "you to determine which remote devices are allowed to send files. "
 "<_:itemizedlist-1/>"
 msgstr ""
+"Lai ļautu attālinātām Bluetooth ierīcēm sūtīt failus uz jūsu datoru, "
+"izmantojiet izvēles rūtiņu <guilabel>Saņemt failus mapē „Lejupielādes”, "
+"izmantojot Bluetooth</guilabel>. Saņemtie faili tiks saglabāti jūsu mājas "
+"mapes mapē <filename>Downloads</filename>. Kad failu saņemšana ir iespējota, "
+"ar izvēli <guilabel>Pieņemt failus</guilabel> var noteikt, kuras attālinātās "
+"ierīces drīkst sūtīt failus. <_:itemizedlist-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:200
@@ -366,6 +450,9 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
+"Izmantojiet izvēles rūtiņu <guilabel>Informēt par saņemtajiem failiem</"
+"guilabel>, lai izvēlētos, vai vēlaties saņemt paziņojumus, kad fails tiek "
+"saņemts pa Bluetooth."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
@@ -382,6 +469,12 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
+"Ir atļauts kopēt, izplatīt un/vai mainīt šo dokumentu saskaņā ar GNU Brīvās "
+"dokumentācijas licences (GFDL) 1.1. vai jebkuras vēlākas versijas "
+"noteikumiem, kā tās publicējis Brīvās programmatūras fonds, bez nemainīgajām "
+"sadaļām, bez priekšējā vāka tekstiem un bez aizmugurējā vāka tekstiem. GFDL "
+"kopiju var atrast šajā <_:ulink-1/> vai failā COPYING-DOCS, kas tiek "
+"izplatīts kopā ar šo rokasgrāmatu."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:12
@@ -391,6 +484,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
+"Šī rokasgrāmata ir daļa no MATE rokasgrāmatu kolekcijas, kas izplatīta "
+"saskaņā ar GFDL. Ja vēlaties izplatīt šo rokasgrāmatu atsevišķi no "
+"kolekcijas, to var izdarīt, pievienojot rokasgrāmatai licences kopiju, kā "
+"aprakstīts licences 6. sadaļā."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:19
@@ -401,6 +498,11 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Daudzi nosaukumi, ko uzņēmumi lieto savu produktu un pakalpojumu "
+"atšķiršanai, ir reģistrēti kā preču zīmes. Ja šādi nosaukumi ir minēti MATE "
+"dokumentācijā un MATE dokumentācijas projekta dalībniekiem ir zināms par šīm "
+"preču zīmēm, nosaukumi ir rakstīti ar lielajiem burtiem vai ar lielo "
+"sākumburtu."
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:35
@@ -417,6 +519,16 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
+"DOKUMENTS TIEK NODROŠINĀTS \"TĀDS, KĀDS IR\", BEZ JEBKĀDĀM TIEŠĀM VAI "
+"NETIEŠĀM GARANTIJĀM, IESKAITOT, BET NE TIKAI, GARANTIJAS, KA DOKUMENTS VAI "
+"DOKUMENTA MAINĪTĀ VERSIJA IR BEZ DEFEKTIEM, PĀRDODAMS, PIEMĒROTS KONKRĒTAM "
+"NOLŪKAM VAI NEPĀRKĀPJ TIESĪBAS. VISU RISKU PAR DOKUMENTA VAI TĀ MAINĪTĀS "
+"VERSIJAS KVALITĀTI, PRECIZITĀTI UN DARBĪBU UZŅEMATIES JŪS. JA KĀDS DOKUMENTS "
+"VAI MAINĪTĀ VERSIJA KAUT KĀDĀ ZIŅĀ IZRĀDĀS DEFEKTĪVS, JŪS (NEVIS SĀKOTNĒJAIS "
+"RAKSTĪTĀJS, AUTORS VAI KĀDS LĪDZAUTORS) UZŅEMATIES VISAS NEPIECIEŠAMĀS "
+"APKOPES, REMONTA VAI LABOJUMU IZMAKSAS. ŠĪ GARANTIJAS ATRUNA IR BŪTISKA ŠĪS "
+"LICENCES DAĻA. NEVIENA DOKUMENTA VAI TĀ MAINĪTĀS VERSIJAS LIETOŠANA SASKAŅĀ "
+"AR ŠO LICENCI NAV ATĻAUTA, IZŅEMOT SASKAŅĀ AR ŠO ATRUNU; UN"
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:55
@@ -432,6 +544,16 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
 " POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"NEKĀDOS APSTĀKĻOS UN SASKAŅĀ AR NEKĀDU TIESĪBU TEORIJU — NE DELIKTA "
+"(IESKAITOT NOLAIDĪBU), NE LĪGUMA, NE CITĀDI — AUTORS, SĀKOTNĒJAIS "
+"RAKSTĪTĀJS, JEBKURŠ LĪDZAUTORS VAI JEBKURŠ DOKUMENTA VAI TĀ MAINĪTĀS "
+"VERSIJAS IZPLATĪTĀJS, VAI JEBKURŠ ŠO PUŠU PIEGĀDĀTĀJS NAV ATBILDĪGS NEVIENAI "
+"PERSONAI PAR JEBKĀDIEM TIEŠIEM, NETIEŠIEM, ĪPAŠIEM, NEJAUŠIEM VAI "
+"IZRIETOŠIEM ZAUDĒJUMIEM, IESKAITOT, BET NE TIKAI, ZAUDĒJUMUS PAR REPUTĀCIJAS "
+"ZAUDĒŠANU, DARBA APSTĀŠANOS, DATORA ATTEICI VAI NEPAREIZU DARBĪBU, VAI "
+"JEBKĀDIEM CITIEM ZAUDĒJUMIEM, KAS RADUŠIES SAISTĪBĀ AR DOKUMENTA UN TĀ "
+"MAINĪTO VERSIJU LIETOŠANU, PAT JA ŠĪ PUSE IR BIJUSI INFORMĒTA PAR ŠĀDU "
+"ZAUDĒJUMU IESPĒJAMĪBU."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:28
@@ -440,3 +562,6 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
+"DOKUMENTS UN TĀ MAINĪTĀS VERSIJAS TIEK NODROŠINĀTAS SASKAŅĀ AR GNU BRĪVĀS "
+"DOKUMENTĀCIJAS LICENCES NOTEIKUMIEM, PAPILDUS SAPROTOT, KA: <_:orderedlist-"
+"1/>"
